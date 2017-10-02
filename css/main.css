@@ -269,3 +269,31 @@ top: -8px;
 }
 
 
+
+/*=========================================
+	About me
+==========================================*/
+
+.profilepic {
+float: left;
+}
+
+.mybackground a{
+color:blue;
+}
+
+.mybackground a:hover {
+color:#0eb493;
+ }
+
+.mybackground h1{
+ float: right;
+ }
+ 
+.mybackground h3{
+ float: left;
+ }
+
+
+
+
