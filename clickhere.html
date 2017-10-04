@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<section id="clickhere" class="clickhere">
+	
+</head>
+<body>
+
+<!-- Top Navigation 
+----------------------------------------------------------
+--------------------------------------------------------->
+
 <style>
 body {margin:0;}
 
@@ -30,6 +39,10 @@ body {margin:0;}
 }
 </style>
 
+
+<!-- Side Navigation 
+----------------------------------------------------------
+--------------------------------------------------------->
 <style>
 #mySidenav a {
     position: absolute;
@@ -68,34 +81,11 @@ body {margin:0;}
     background-color: #555
 }
 
-
-
-.educ h1{
-   color: #0eb493;
-   position: absolute;
-   left: 600px;
-   display: block;
-   text-align: left;
-
-}
-
-.educ h3 {
-  position: absolute;
-  left: 220px;
-  display: block;
-  text-align: left;
-
+.frame {
+  background-color: #f4f7f9;
 }
 </style>
 
-
-	<section id="clickhere" class="clickhere">
-	
-	
-
-
-</head>
-<body>
 
 <div class="topnav">
 <a href="index.html">Home</a>
@@ -107,43 +97,19 @@ body {margin:0;}
 <body>
 
 <div id="mySidenav" class="sidenav">
-  <a href="#" id="education">Education &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ></a>
-  <a href="#" id="skills">Skills &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp></a>
+ <!-- <a href="#" >Education &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ></a>  -->
+  <a href="education.html" id="education" target="myframe">Education &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ></a>
+  <a href="skills.html" id="skills" target="myframe">Skills &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp></a>
   <a href="#" id="interest">Interests &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp></a>
   <a href="#" id="achievements">Achievements &nbsp &nbsp &nbsp &nbsp></a>
   <a href="#" id="sidenav"></a>
 </div>
 
- 
 </section>
-
-<div id="educ" class="educ">
-
-
-<br>
-<h1 color="#0eb493" >Education</h1>
-<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div> 
-
-<br>
-<br>
-<br>
-<br>
 <br>
 
-<h3>
-Elementary: <br>
-Catalunan Grande, Elementary School <br><br>
 
-High School: <br>
-Jesus J. Soriano, National High School <br><br>    
-     
-College: <br>
-University of Southeastern Philippines, Obrero, Davao City <br>
-Bachelor of Science in Information Technology<br>
-2015-Present  
-</h3>
-</div>
-
+<center><iframe class="frame" width="1200" height="580" frameborder="10" name="myframe"> </iframe></center>
 
 
 </body>
